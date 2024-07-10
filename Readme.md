@@ -23,3 +23,5 @@ OR:
 ```
 
 GIST: At high throughput, GRPC is quite fast even in a local server. Last time, I benchmarked with a ngrok https server in between, GRPC was >10 times faster even for a GET request. So most likely if we move from the current setup to GRPC, we will cut network latency by 5x to 10x (my estimate).
+
+Granted, network latency might not be the biggest problem that we are facing.
